@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.body{
+    background-color: rgb(21, 68, 150);
+    border: 2px solid rgb(21, 68, 150);
+    /* height: 100vh; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 6px 10px rgba(1, 1, 1, 0.3);
+}
+.form {
+    background-color: white;
+    color: rgb(21, 68, 150);
+    width: 35vw;
+    display: flex;
+    /* border: 2px solid pink; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 70vh;
+}
+/* .select{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+} */
+.result{
+    /* background-color: blue; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    font-family: 'Dai Banna SIL', serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.convert-to{
+    width: 75%;
+
+}
+.input>h4{
+    font-family: 'Dai Banna SIL', serif;
+    margin: 0px 8px 35px 8px;
+    font-size: 40px;
+}
+.input>h5{
+    font-family: 'Dai Banna SIL', serif;
+    font-size: 22px;
+    margin: 20px 0px 20px 0px;
+}
+.to{
+    width: 100%;
+}
+.button{
+    background-color: rgb(21, 68, 150);
+    color: white;
+    margin: 25px;
+    padding: 5px;
+    width: 120px;
+    border-radius: 5px;
+    font-family: 'Dai Banna SIL', serif;
+    font-size: 18px;
+    /* box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.3); */
+}
+.select{
+    padding: 5px;
+    font-family: 'Dai Banna SIL', serif;
+    font-size: 18px;
+}
